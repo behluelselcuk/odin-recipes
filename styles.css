@@ -1,7 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
     background-color: lightgray;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -10,9 +12,19 @@ h1 {
     text-decoration: underline;
 }
 
+.container {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
 li {
     font-size: 1.5em;
     text-decoration: none;
+    margin: 12px 0;
 }
 
 a:visited {
